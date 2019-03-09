@@ -1,0 +1,349 @@
+text    
+{
+	font-family:verdana, arial, sans-serif; 
+	color: #221811;
+}
+
+header
+{
+	padding-top: 1%;
+	background-color: #D2B48C;
+	height: 12%;
+}
+
+
+#javajamlogo{
+		
+		width: 100%;
+		height: 25%;
+}
+
+#tab3{
+	text-align: left;
+}
+
+.gap
+{
+	height:5%;
+	background-color: #231814;
+
+}
+
+#month
+{
+	background-color: #D2B48C;	
+	border-bottom-color: #231814;
+	border-bottom-style: solid;
+	color: #231814; 
+}
+
+#order_form
+{
+	font-size: 14;
+	margin-top: 2.5%;
+}
+
+h1      
+{
+	font-family: verdana;
+	padding-left: 2%;
+	margin-top: 1.5%
+
+}
+
+h3
+{
+	padding-left: 3.5%;
+}
+
+h2
+{
+	padding-left: 5.5%;
+}
+
+p
+{
+	padding-left: 3.5%;
+	font-size: 14;
+}
+
+#desc
+{
+	font-size: 14;
+}
+
+.cart_tab
+{
+	width: 50%;
+	border-collapse: collapse;
+}
+
+#cart_p
+{
+	font-size: 14;
+	font-weight: bold;
+	text-align: center;
+}
+
+#order_tab
+{
+	font-size: 15;
+	border-collapse:collapse;
+}
+
+.order_fieldset
+{
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	align-items: center;
+
+}
+
+.music_table
+{
+	
+	width:100%;
+	font-size:14;
+}
+
+#tab3main
+{
+	
+	font-size:14;
+}
+
+#tab2
+{
+	padding-left: 12.5%;
+}
+
+
+.tab1
+{
+	border-collapse: collapse;
+	width: 90%
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+#menu_tablerow:nth-child(odd)
+{
+	background-color: #D2B48C;
+}
+
+#menu_tablerow:nth-child(even)
+{
+	background-color: #FEFDCD;
+}
+
+#cart_tablerow:nth-child(odd)
+{
+	background-color: #D2B48C;
+}
+
+#cart_tablerow:nth-child(even)
+{
+	background-color: #FEFDCD;
+}
+
+#order_tablerow:nth-child(odd)
+{
+	background-color: #D2B48C;
+}
+
+#order_tablerow:nth-child(even)
+{
+	background-color: #FEFDCD;
+}
+
+.column1 a     
+{
+	font-weight: bold; 
+	text-align: center;
+	font-weight: bold;
+	color: #FCEBB6;
+	text-decoration: none;
+	padding-right:35px;
+
+}
+
+.column2 address a
+{
+	font-style: normal;
+	text-decoration: none;
+
+}
+
+.column2 address
+{
+	padding-left: 3.5%;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.column1 li
+{
+	list-style-type: none;
+	margin:5px;
+	text-align: center;
+	/*padding-right: 35%*/
+}
+
+
+address a
+{
+	color: #221811;
+	font-style: normal; 
+}
+
+#wrapper
+{
+	width: 80%; 
+	margin: auto;
+	box-shadow: 2px 2px 7px 2px rgba(0,0,0,0.5);
+}
+
+footer  
+{
+	margin-top: 54.45%;
+	background-color: #D2B48C; 
+	font-size: 0.60em; 
+	font-style: italic; 
+	text-align: center;
+	border-top:2px solid black;
+}
+
+.column1 
+{
+	background-color: #231814;
+	float: left;
+    height: 95%;
+    width: 15%;
+
+    
+}
+
+.column2 
+{
+
+	float: left;
+    height: 95%;
+    width: 85%;
+    background-color: #FCEBB6;
+
+}
+
+.music_column2 
+{
+	overflow-y: scroll;
+	float: left;
+    height: 95%;
+    width: 85%;
+    background-color: #FCEBB6;
+
+}
+
+.order_column2 
+{
+	overflow-y: scroll;
+	float: left;
+    height: 95%;
+    width: 85%;
+    background-color: #FCEBB6;
+
+}
+
+.row
+{
+	border-bottom:2px solid black;
+	
+}
+
+nav a
+{
+	padding-top: 1%
+}
+
+
+
+body    
+{
+	background: url(images/background.jpg);
+	font-family:verdana,arial,sans-serif;
+	font-size: 14;
+}
+
+@media screen and (max-width:1092px)
+{
+	#wrapper
+	{
+		width:100%;
+		
+	}
+	.column1
+	{
+		display: inline-block;
+		width:15%;
+		height:95%;
+		
+	}
+	.column2
+	{ 
+		display: inline-block;
+		width:85%;
+		height:95%;
+		
+	}
+}
+
+.text
+{
+	height: 100%;
+}
+
+@media screen and (max-width:760px)
+{
+	#wrapper
+	{
+		width:100%;
+
+	}
+
+	#usrtab
+	{
+		padding-left: 0%
+	}
+	#javajamlogo{
+		display: inline-block;
+		text-align: center;
+		width: 60%;
+		height: 40%;
+ 	}
+	.column1
+	{
+		width:100%;
+		height:35%;
+		display: block;
+		font-size: 95%;
+		text-align: center;
+	}
+	.tab1{
+		height: 30%;
+	}
+	header{
+		height: 8%;
+		font-size: 95%;
+	}
+	#heromugs{
+		width: 100%;
+		height: 20%;
+	}
+	.column2
+	{
+		width:100%;
+		height:100%;
+		font-size: 100%;
+	}
+}
